@@ -8,6 +8,7 @@ class Bruch(object):
 
     def __init__(self, *args):
         """
+        GOT THIS PART WITH
         :param args: *args -> how many args?
         """
         if (len(args) == 1):
@@ -202,6 +203,6 @@ class Bruch(object):
         :return: Kind of a list which is iterable
         """
         #Iterate through self.zaehler and self.nenner
-        for i in self.zaehler,self.nenner:
+        for i in self.zaehler, self.nenner:
             #the keyword yield is basically the same as making a list, appending i each time and then returning this list
             yield i
